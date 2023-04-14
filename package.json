@@ -1,0 +1,45 @@
+{
+  "name": "visual",
+  "description": "default_template_value",
+  "repository": {
+    "type": "default_template_value",
+    "url": "default_template_value"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "eslint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.14",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "date-fns": "^2.29.3",
+    "lodash.debounce": "^4.0.8",
+    "powerbi-models": "^1.12.6",
+    "powerbi-visuals-api": "^5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "^5.0.0",
+    "powerbi-visuals-utils-interactivityutils": "^6.0.1",
+    "powerbi-visuals-utils-svgutils": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hotkeys-hook": "^4.3.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-powerbi-visuals": "^0.8.1",
+    "ts-loader": "6.1.0",
+    "tslint": "^5.18.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "3.6.3"
+  }
+}

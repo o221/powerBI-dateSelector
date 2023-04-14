@@ -1,0 +1,17 @@
+{
+		"version": "23.04.03",
+		"author": {"name":"jro","email":"josborn@tambla.com.au"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/dateSel4A1A0033E6F54D1B809B6E51058D54E3.pbiviz.json"
+			}
+		],
+		"visual": {"name":"dateSelector","displayName":"DateSelector","guid":"dateSel4A1A0033E6F54D1B809B6E51058D54E3","visualClassName":"Visual","version":"23.04.03","description":"Date Range Selector","supportUrl":"https://tambla.com.au","gitHubUrl":""},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
