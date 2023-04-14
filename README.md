@@ -35,11 +35,11 @@ The [**DateSelector** visual](https://github.com/o221/powerBI-dateSelector/blob/
 * Filters reduce the scope on any level - Visual/Page/All Pages
 
  #### Start-up state 
-  * Slicer opens in configured state 
+  * Slicer opens in configured *pre-set* state 
      * Today, YTD, etc.
      * or ...
 Can be synced with last  page viewed
-     * With pre-set range there's no sync across pages 
+     * With *pre-set* range there's no sync respected on the pre-set pages.
  #### Short cut keys 
   * when slider is active use fast shortcuts
  #### Help 
