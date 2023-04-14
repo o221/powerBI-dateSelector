@@ -30,6 +30,7 @@ The [**DateSelector** visual](https://github.com/o221/powerBI-dateSelector/blob/
      * Shows selected range on two granularity levels (optional) 
      * Second timeline shows context - it is also active
 * Optional buttons for Today, This Week, etc. with optional YTD, etc.
+     * Today, etc. buttons, are hidden when the button's period is not in scope.
 * Range slider shows full scope of selected date field
 * Filters reduce the scope on any level - Visual/Page/All Pages
 
