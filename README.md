@@ -8,6 +8,42 @@ The **DateSelector** visual is a date range selector designed to be used with Mi
 - Enables users to filter data based on the selected date range.
 - Simple and intuitive design, easy to use.
 
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/30431819/231940537-9274dfcf-d11b-429f-9711-83d8e82b2abd.png">
+
+***
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/30431819/231940772-8e7ac33c-1c9e-4bac-82ad-bd127c41696f.png">
+
+ ***
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/30431819/231940898-2424246f-59a7-4458-a236-f2e3e165ee08.png">
+
+ ***
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/30431819/231941191-da5e2c64-929e-4099-8b10-609981076712.png">
+
+ ****
+ 
+ #### Date Range Input
+  * Input via field, quick action buttons or slider
+     * The date entry is not limited to the filtered scope
+* Up to 6 levels of granularity on the slider(s)
+     * Granularity determines step size of the interactions
+     * Based on granularity - Top timeline is the primary granularity
+     * Shows selected range on two granularity levels (optional) 
+     * Second timeline shows context - it is also active
+* Optional buttons for Today, This Week, etc. with optional YTD, etc.
+* Range slider shows full scope of selected date field
+* Filters reduce the scope on any level - Visual/Page/All Pages
+
+ #### Start-up state 
+  * Slicer opens in configured state 
+     * Today, YTD, etc.
+     * or ...
+Can be synced with last  page viewed
+     * With pre-set range there's no sync across pages 
+ #### Short cut keys 
+  * when slider is active use fast shortcuts
+ #### Help 
+  * Descriptive tooltip option
+
 ## Installation
 To use the DateSelector visual, you can import it into your Power BI report by following these steps:
 
